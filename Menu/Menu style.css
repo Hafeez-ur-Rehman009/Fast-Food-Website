@@ -1,0 +1,81 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arial Narrow Bold', Arial;
+    background-image: linear-gradient(rgba(110, 77, 77, 0.3), #773131), url(../Image/Menu-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+a:link {
+    color: rgb(255, 237, 237);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 246, 246);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(236, 233, 23);
+}
+
+a {
+    padding: 10px;
+}
+
+.A {
+    padding: 10px;
+    color: white;
+    background-color: #fd0606c7;
+    text-align: right;
+    font-size: x-large;
+    border: 1px solid #f50000ce;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #f50000b6;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.buttom {
+    text-align: justify;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+img {
+    width: 90px;
+    margin-left: 90%;
+    height: 100px;
+    border-radius: 60%;
+    align-content: right;
+    opacity: 0.6;
+    position: static;
+}
+
+.button {
+    width: 180px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 43%;
+    text-align: center;
+    color: #fff9f9;
+    background-color: #f50000;
+    font-size: 24px;
+    font-weight: bold;
+}

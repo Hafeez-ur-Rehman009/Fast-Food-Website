@@ -1,0 +1,69 @@
+ body {
+     padding: 0px;
+     margin: 0px;
+     font-family: 'Arial Narrow Bold', Arial;
+     height: 915px;
+     background-image:url(./Image/Home-Wallpaper.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ a:link {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: rgb(255, 255, 255);
+ }
+
+ a:hover {
+     color: rgb(0, 0, 0);
+     text-decoration: underline;
+ }
+
+ a:active {
+     color: rgb(236, 233, 23);
+ }
+
+ .A,
+ a {
+     padding: 10px;
+ }
+
+ .A {
+     padding: 10px;
+     color: white;
+     background-color: #f50000cc;
+     text-align: right;
+     font-size: x-large;
+     border: 1px solid #f50000;
+     border-radius: 3px;
+     font-weight: bold;
+
+ }
+
+ .buttom {
+    padding-left:5px;
+     color: rgb(255, 247, 247);
+     text-align: justify;
+     font-size: 30px;
+     font-weight: bold;
+ }
+
+ p {
+     font-size: medium;
+     text-align: justify;
+ }
+
+ .C button {
+     width: 90px;
+     height: 38px;
+     color: #fff9f9;
+     background-color: #f50000;
+     font-size: 18px;
+     font-weight: bold;
+     border: none;
+     border-radius: 5px;
+     margin: 5px;
+ }

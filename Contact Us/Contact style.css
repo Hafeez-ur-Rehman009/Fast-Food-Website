@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Arial Narrow Bold', Arial;
+    box-sizing: border-box;
+}
+nav{
+    font-family: 'Arial Narrow Bold', Arial;
+    color: white;
+     background-color: #f50000;
+     text-align: right;
+     font-size: x-large;
+     border: 10px solid #f50000;
+     border-radius: 5px;
+     font-weight: bold;
+     padding:5px;
+     margin-top: 5px;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(236, 233, 23);
+}
+.head {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(145, 102, 102, 0.7), #493d3d),url(../Image/Contect-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgb(255, 0, 0);
+    border-width: 2px;
+    color: #fff;
+    background:transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor:text;
+    transition: 0.2s;
+}
+button{
+    padding:10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgb(255, 0, 0);
+    border-width: 2px;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}

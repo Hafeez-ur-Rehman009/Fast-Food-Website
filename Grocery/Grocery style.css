@@ -1,0 +1,108 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arial Narrow Bold', Arial;
+    background-image:linear-gradient(rgba(80, 44, 44, 0.5), #773939),url(../Image/Grocery-Wallpaper.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:1020px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(236, 233, 23);
+}
+
+.A {
+    color: white;
+    background-color: #f50000;
+    text-align: right;
+    font-size: x-large;
+    border: 10px solid #f50000ce;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.heading {
+    background-color: #f50000;
+    color: white;
+    font-size:x-large;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid #f50000ce;
+    border-radius: 3px;
+}
+
+.list {
+    text-align: justify;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+
+
+
+
+/* For Card */
+#card {
+    margin: 0px;
+    padding: 0px;
+}
+
+.edit {
+    /* background-color: rgb(255, 255, 255); */
+    color: white;
+    border: 3px solid rgb(255, 0, 0);
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: white;
+    border: 0;
+}
+
+.edit:hover {
+    background-color: #f50000;
+    color: white;
+    box-shadow: 5px 5px 10px 10px #f50000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

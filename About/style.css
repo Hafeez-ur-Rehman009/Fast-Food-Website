@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', Arial;
+}
+
+.Links {
+    padding: 10px;
+    color: white;
+    background-color: #f50000;
+    text-align: right;
+    font-size: x-large;
+    border: 1px solid #f50000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(236, 233, 23);
+}
+
+/* For Body */
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(110, 77, 77, 0.3), #5e2424), url(../Image/About-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: larger;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+.title {
+    color: #ffffff;
+
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #f70404;
+    font-size: 28px;
+}
+
+.content-section .content{
+    margin-top: 20px;
+    color: #fff2f2;
+    font-size: 19px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.content-section .content .button {
+    margin-top: 30px;
+}
+
+.content-section .content .button a {
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+.content-section .content .button a:hover {
+    background-color: #e43131;
+    color: #fff;
+}
+
+.content-section .social {
+    margin: 40px 30px;
+}
+
+.content-section .social i {
+    color: #000000;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover {
+    color: #fd0000;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .content-section {
+        float: none;
+        width: 10%;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title {
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button {
+        text-align: center;
+    }
+}
